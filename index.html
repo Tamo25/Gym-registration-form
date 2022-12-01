@@ -1,0 +1,53 @@
+<!DOCTYPE HTML >
+<HTML lang="en">
+   <HEAD>
+      <link rel="stylesheet" href="style.css">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
+      <TITLE></TITLE>
+   </HEAD>
+   <BODY>
+     <form id="survey-form">
+     <div class="container">
+     <h1 id="title">Gym Membership Form</h1>
+     <p id="description">Want to become a Gym member? Fill in the form below and we will contact you shortly to complete your registration process. </p>
+       <br>
+     <label class="first-class" id="name-label" for="Name">Name</label>
+     <input class="group" id="name"  placeholder="Enter Name" type="text" required>
+     <br>
+     <label class="first-class" id="email-label" for="Email">Email</label>
+     <input class="group" id="email" placeholder="Enter Email"  type="email" required>
+     <br>
+     <label  class="first-class" id="number-label" for="phone-number">Phone</label>
+     <input class="group" id="number" type="number" placeholder="Enter Number" min="0" max="10000000000">
+     <section class="section1">
+       <p>Select your gender</p>
+      <label>Male<input class="gender" type="radio" name="gender" value="male" /></label>
+    <label>Female<input type="radio" name="gender" value="female" /></label>
+    </section>
+       <section class="section2">
+    <p>What is your goal?</p>
+    <select name="dropdown" id="dropdown">
+    <option value="">--Please choose an option--</option>
+    <option value="gain">Muscle gain</option>
+    <option value="loss">Weight loss</option>
+    <option value="toning">Toning</option>
+    <option value="endurance">Improving endurance</option>
+    <option value="flexibility">Increasing flexibility</option>
+   </select>
+       </section>
+     <section class="section3">
+       <p>Do you require a personal trainer?</p>
+       <label class="checkbox">Yes<input class="yes" type="checkbox" value="Value" ></label>
+       <label>No<input type="checkbox" value="Value">
+       </label>
+     </section>
+   <label class="comment" for="comment">Any Comments</label>
+       <br>
+    <textarea></textarea> 
+    <br>
+    <button id="submit">Submit</button>
+     </div>
+     </form>
+   </BODY>
+</HTML>

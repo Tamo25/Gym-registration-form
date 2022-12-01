@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url("image/pexels-victor-freitas-841130.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  font-family: 'Anek Devanagari', sans-serif;
+  height: 100vh;
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+   
+}
+.container{
+  opacity: 0.6;
+  background-color: gray;
+  width: 450px;
+  height: 600px;
+  max-width: 400px;
+  border-radius: 5%;
+}
+#title,#description{
+  text-align: center;
+}
+#title{
+  font-size:35px;
+  line-height: 2;
+}
+.first-class{
+  margin-left: 25%;
+  line-height: 1px;
+  font-size: 20px;
+}
+.group{
+  background: black;
+  border-radius: 10%;
+  height:30px;
+}
+
+
+.section1,.section2{
+  letter-spacing:1px;
+  font-size: 15px;
+  margin-left:25%;
+  margin-top: 3%;
+}
+.section3{
+  margin-left:20%;
+  margin-top: 2%;
+  
+}
+.checkbox{
+  margin-left:25%;
+}
+.yes{
+  vertical-align: baseline;
+}
+.comment{
+  margin-left: 35%;
+}
+textarea{
+  margin-left:27%;
+  border-radius:10%;
+  height: 45px;
+}
+button{
+  border-radius: 10%;
+  font-size:15px;
+  margin-left:40%;
+  padding:10px;
+  border:none;
+}
